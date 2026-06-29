@@ -1,0 +1,10 @@
+{
+  "base_weight": "out/full_sft_768.pth",
+  "tcm_lora": "out/lora_medical_mix_768.pth",
+  "western_lora": "out/lora_medical_768.pth",
+  "eval_file": "dataset/eval/medical_eval_prompts.jsonl",
+  "max_new_tokens": 512,
+  "temperature": 0.6,
+  "top_p": 0.75,
+  "repetition_penalty": 1.25
+}
